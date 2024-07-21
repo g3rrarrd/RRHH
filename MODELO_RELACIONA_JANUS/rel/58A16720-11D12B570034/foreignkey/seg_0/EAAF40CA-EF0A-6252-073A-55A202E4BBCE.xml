@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAAF40CA-EF0A-6252-073A-55A202E4BBCE" containerWithKeyObject="64183346-EB9E-33DA-1B5E-CDBA4F25329D" localFKIndex="FEBA4B9D-BDAC-CA32-E401-A2BCAC5F24DB" name="PTMS_HST_USR_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:27:23 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_HISTORIAL_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EAB343C8-CBE2-21A1-6A7A-CD36862E55CF</referredTableID>
+<keyObject>B8FF4E81-4D8F-722E-0526-484EE81C754D</keyObject>
+<referredKeyID>B8FF4E81-4D8F-722E-0526-484EE81C754D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_HST_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

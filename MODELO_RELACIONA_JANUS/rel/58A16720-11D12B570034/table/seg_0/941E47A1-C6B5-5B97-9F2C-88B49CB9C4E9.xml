@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="941E47A1-C6B5-5B97-9F2C-88B49CB9C4E9" name="TBL_AREA_TRABAJO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:50:59 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>AREA_TRA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRABAJO" id="BC825595-5A91-9746-5C05-623A34707205">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:51:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREA_TRABAJO" id="C4AB7932-8443-7996-915C-D71F7855E94B">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:51:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4956DA97-BFB6-3FC5-D526-04DEC40B9909" name="TBL_AREA_TRABAJO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:51:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC825595-5A91-9746-5C05-623A34707205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE597697-19AD-9240-8EC1-F56E44C6053B" name="TBL_AREA_TRABAJO__IDX">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 16:16:32 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC825595-5A91-9746-5C05-623A34707205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

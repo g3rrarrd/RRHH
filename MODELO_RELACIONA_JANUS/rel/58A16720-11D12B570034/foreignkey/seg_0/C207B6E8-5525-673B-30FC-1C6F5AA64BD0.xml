@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C207B6E8-5525-673B-30FC-1C6F5AA64BD0" containerWithKeyObject="CAC72AD4-8ABA-98DB-2EEC-50AE886489BA" localFKIndex="E84EC8E5-FC05-A61B-5F0D-A4E1D3203CBA" name="EMPLEADOS_AREA_TRA">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:52:03 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_AREA_TRABAJO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>941E47A1-C6B5-5B97-9F2C-88B49CB9C4E9</referredTableID>
+<keyObject>4956DA97-BFB6-3FC5-D526-04DEC40B9909</keyObject>
+<referredKeyID>4956DA97-BFB6-3FC5-D526-04DEC40B9909</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TRABAJO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

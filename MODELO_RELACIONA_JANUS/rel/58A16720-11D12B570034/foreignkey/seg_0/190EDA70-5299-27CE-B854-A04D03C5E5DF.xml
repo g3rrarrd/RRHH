@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="190EDA70-5299-27CE-B854-A04D03C5E5DF" containerWithKeyObject="0E1E3681-332B-1E7A-9AEB-445F54E792F9" localFKIndex="7E69F014-C8B1-3835-CEA5-8B244E28F09C" name="RPS_EMP_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:46:43 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAC72AD4-8ABA-98DB-2EEC-50AE886489BA</referredTableID>
+<keyObject>FC985C64-C120-51F4-7165-30DAC7BC9AAF</keyObject>
+<referredKeyID>FC985C64-C120-51F4-7165-30DAC7BC9AAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDENTIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

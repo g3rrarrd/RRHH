@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBAD7F26-C499-AD7E-BAD5-CAC75BECFA9B" name="TBL_DEDUCCIONES">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:52:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<abbreviation>DDN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEDUCCION" id="EA7BADC8-F337-4D8D-024F-50828D8E8034">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRESTAMOS" id="7A1998C5-57A6-F80D-9557-58986AFCF072">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C0A0D05-DAB1-4909-3CE3-F8693BC0E49C" referredColumn="C3588E3B-E98C-72E5-97CE-26AD9C164730"/>
+</associations>
+</Column>
+<Column name="DEDUCCION" id="23199E64-65EE-8752-4C38-EA298EA7908E">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="FA7BE80F-E0D6-CDD9-BF36-DAFD9CB65C13">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_APLICADA" id="580E4645-2841-2549-2463-9241B12565F4">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="039DCEC6-DA88-4C7E-4BFE-563C1C53256B" name="TBL_DEDUCCIONES_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA7BADC8-F337-4D8D-024F-50828D8E8034"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AB88556-DE0B-0476-5815-7282B3F3771C" name="DDN_PTS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1998C5-57A6-F80D-9557-58986AFCF072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

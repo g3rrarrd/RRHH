@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6601ED6A-8C18-B326-98AE-982463FBB920" name="TBL_DIRECCION">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:54:51 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>DIR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIRECCION" id="FBEDE635-A98A-2F2C-0007-46CFF60F0E68">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:56:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="9C97F9A4-01DF-E525-120F-481C267E6FF2">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:56:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MUNICIPIO" id="F84985E6-5714-C28A-A4D7-E9FBFE21DEAA">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:58:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1405CB6F-350A-1A13-0A9A-A7F363BF82AC" referredColumn="2691A86D-E165-8A19-02F2-4B7D78B56A76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ED0519D-8B47-4E2B-2AA1-AC178F725FBC" name="TBL_DIRECCION_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:56:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBEDE635-A98A-2F2C-0007-46CFF60F0E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DDA2065-7795-9F6A-B99E-E8FAB7D363BD" name="DIR_MUN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:58:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84985E6-5714-C28A-A4D7-E9FBFE21DEAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4698B16-B1C6-DAA2-9EA5-28820EF0BB3D" name="TBL_BONIFICACIONES">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:56:04 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<abbreviation>BFN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BONIFICACION" id="28318211-C918-F648-1ED4-7531DC77168F">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="87C65048-061F-94F6-665C-8297E5632F3A">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCIPCION" id="0BF58A18-A1A3-2E3E-7A7D-BA8E0DB4C382">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_APLICADA" id="FBE867D7-FDA7-0272-B2AB-E62703253047">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2941F449-4A09-B717-82AF-CAF4F0D4933D" name="TBL_BONIFICACIONES_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28318211-C918-F648-1ED4-7531DC77168F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

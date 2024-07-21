@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C51DF911-B303-1A3E-4A43-7B8698F7F0BE" name="TBL_PAIS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:57:58 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>PAIS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAIS" id="0157242D-0845-6383-24F5-17BEBCC13A05">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:58:22 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="5330952B-2E22-DA5D-B4C5-D5FFFADEC683">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:58:22 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="834FA1B2-05BE-A916-C8D1-379A3EE22D8C" name="TBL_PAIS_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 15:58:22 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0157242D-0845-6383-24F5-17BEBCC13A05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

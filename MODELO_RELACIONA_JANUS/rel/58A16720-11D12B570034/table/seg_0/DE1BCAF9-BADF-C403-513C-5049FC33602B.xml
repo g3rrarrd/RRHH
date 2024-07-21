@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE1BCAF9-BADF-C403-513C-5049FC33602B" name="TBL_PAGOS_PRESTAMOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:30:40 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PG_PRTM" id="D16F8D65-D0FF-4EED-5BBC-842F8F43ED67">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:31:55 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRESTAMOS" id="DC3085CB-C19D-1AE3-A111-E46C744C2072">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:32:41 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FF7E187-2452-8311-1CE5-E2AF62ED7142" referredColumn="C3588E3B-E98C-72E5-97CE-26AD9C164730"/>
+</associations>
+</Column>
+<Column name="MONTO_DEDUCIDO" id="9A709934-3B2C-ECBB-786E-569DC781AFFA">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:31:55 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DEDUCCCION" id="E903168C-04C6-62FB-E2D8-5DB558C05554">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:32:18 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA474868-47C1-0897-2885-6637F7F0CEE7" referredColumn="EA7BADC8-F337-4D8D-024F-50828D8E8034"/>
+</associations>
+</Column>
+<Column name="FECHA_PAGADO" id="C3944CBA-8B0A-883E-A1E6-1F051FC388DE">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:31:55 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95B5253C-6A5A-4A7C-2D8F-E539F3D3ACF0" name="PG_PRTM_DDN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:32:18 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E903168C-04C6-62FB-E2D8-5DB558C05554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7902960A-20EB-D84B-D258-0340188D78E3" name="PG_PTMS_PTMS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:32:41 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3085CB-C19D-1AE3-A111-E46C744C2072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

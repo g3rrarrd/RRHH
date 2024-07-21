@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59AB0452-7633-F1FC-6054-9D281754CE38" name="TBL_PERMISOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:48:30 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>PMS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERMISO" id="8F01ACA9-38FB-DE5A-DD4D-71CD3CD349DD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_HST_USUARIO" id="7FF89246-4F39-A3BF-C9CC-37BBB2A5CE48">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:26:44 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7ABE065-4009-4D18-16F3-09DB9F50A773" referredColumn="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9"/>
+</associations>
+</Column>
+<Column name="MOTIVO" id="FBB73705-B0B1-324B-C17B-2C34C9CAE8F8">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="11536C14-F160-A59B-B43D-657B7E3F0636">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="AA3FE970-0642-7414-11C0-296EA46D9BFC">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66719D78-24A2-2321-028D-E0004FD68796" name="TBL_PERMISOS_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F01ACA9-38FB-DE5A-DD4D-71CD3CD349DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EBCD6EF-266F-EBCA-5ACD-34907D48A93F" name="PSM_HST_USR_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:26:44 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FF89246-4F39-A3BF-C9CC-37BBB2A5CE48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

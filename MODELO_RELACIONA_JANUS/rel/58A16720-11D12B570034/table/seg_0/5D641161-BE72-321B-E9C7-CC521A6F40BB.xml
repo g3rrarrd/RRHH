@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D641161-BE72-321B-E9C7-CC521A6F40BB" name="TBL_DEPARTAMENTOS_TRABAJO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:37:13 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>DEP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPARTAMENTO" id="177525F9-7D2A-C0F3-A247-6824F0B937F8">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:38:21 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO" id="2A0A86A2-4E01-1420-98D1-9B76A9931696">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:38:21 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="8C994312-BE78-2771-40F9-10A015F69EEB">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:38:21 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90BB4E5B-62DD-93CC-78E1-1B4FA1BC75FF" name="TBL_DEPARTAMENTOS_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:38:21 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="177525F9-7D2A-C0F3-A247-6824F0B937F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

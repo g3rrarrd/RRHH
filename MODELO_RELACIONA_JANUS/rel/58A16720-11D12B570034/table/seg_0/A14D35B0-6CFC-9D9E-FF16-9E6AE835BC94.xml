@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14D35B0-6CFC-9D9E-FF16-9E6AE835BC94" name="PAGOS_X_DEDUCCIONES">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:54:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEDUCCION" id="822AC936-E9AE-D994-CE42-A1452AB1EA63">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:55:04 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79875D6E-7530-DD28-95E0-03569ABD5C5B" referredColumn="EA7BADC8-F337-4D8D-024F-50828D8E8034"/>
+</associations>
+</Column>
+<Column name="ID_PAGO" id="5F22E339-FD32-3422-A940-42578A5F9732">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:55:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2AC2DC1-6F6E-382C-389B-FFAA831825B4" referredColumn="56872910-D1F5-8388-7565-C512CD3868E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A480CCFB-F41A-6CE2-D782-F332C5CDA825" name="PAGOS_X_DEDUCCIONES_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:58:56 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="822AC936-E9AE-D994-CE42-A1452AB1EA63"/>
+<colUsage columnID="5F22E339-FD32-3422-A940-42578A5F9732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C46251A6-3CD5-ABCF-D80A-49A570587068" name="PAGOS_X_DDN_DDN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:55:04 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="822AC936-E9AE-D994-CE42-A1452AB1EA63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C154551A-060E-C646-A6B7-6ADD467813E6" name="PAGOS_X_DDN_PAGOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 20:55:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F22E339-FD32-3422-A940-42578A5F9732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

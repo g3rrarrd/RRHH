@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A553316-76EC-1118-D4B4-49E3C6C3AD75" containerWithKeyObject="CAC72AD4-8ABA-98DB-2EEC-50AE886489BA" localFKIndex="FDA0930F-E6FA-1A9B-D2A1-0660825FC55B" name="EMP_GEN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:36:35 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9D1CDAB-A1DA-59E1-0782-28DC276F0F9F</referredTableID>
+<keyObject>6F765454-FC01-8971-AEAD-B323F404A977</keyObject>
+<referredKeyID>6F765454-FC01-8971-AEAD-B323F404A977</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GENERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

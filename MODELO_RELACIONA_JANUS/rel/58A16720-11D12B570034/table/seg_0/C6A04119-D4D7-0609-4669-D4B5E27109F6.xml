@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6A04119-D4D7-0609-4669-D4B5E27109F6" name="TBL_ESTADO_PRESTAMO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:33:24 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO" id="8B482761-FA25-2E8B-B9B0-72A68B207DFD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:33:51 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="E83677EA-0CF9-015C-5952-C10B7388D08F">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:33:51 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AD26873-C6EE-10CF-0317-3E9E32A7A3E5" name="TBL_ESTADO_PRESTAMO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:33:51 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B482761-FA25-2E8B-B9B0-72A68B207DFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

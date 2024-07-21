@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAB343C8-CBE2-21A1-6A7A-CD36862E55CF" name="TBL_HISTORIAL_USUARIO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:24:30 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HST_USUARIO" id="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:24:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8FF4E81-4D8F-722E-0526-484EE81C754D" name="TBL_HISTORIAL_USUARIO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 21:24:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

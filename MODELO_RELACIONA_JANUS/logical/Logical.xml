@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D1DCD112-9292-32B8-6987-77190128C942" mainViewID="3C4B4E2C-B27F-FCF9-E3B6-B0364667B74A">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:28:43 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
