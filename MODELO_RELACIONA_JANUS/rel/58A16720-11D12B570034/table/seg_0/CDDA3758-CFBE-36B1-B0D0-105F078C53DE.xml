@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E1E3681-332B-1E7A-9AEB-445F54E792F9" name="TBL_REPORTES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDDA3758-CFBE-36B1-B0D0-105F078C53DE" name="TBL_DOCUMENTACION">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:42:55 UTC</createdTime>
+<createdTime>2024-07-24 12:34:56 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<ordsAlias>table_6</ordsAlias>
-<abbreviation>RPS</abbreviation>
+<ordsAlias>table_25</ordsAlias>
+<abbreviation>DCMN</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_REPORTE" id="A3164D42-4895-2B14-248A-CB326A0E5FCD">
+<Column name="ID_DOCUMENTO" id="8E59D671-4DE1-9CA4-5872-322918C09695">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-24 12:35:48 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,33 +19,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_TIPO_REPORTE" id="6C93B9B5-403C-18D0-DDCE-1C331D6923F5">
+<Column name="ID_TIPO_DOC" id="BFE75FCC-FE7C-EBD4-58F3-102E73147C1D">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-23 13:56:00 UTC</createdTime>
+<createdTime>2024-07-24 12:39:05 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5C81BD60-398F-D529-8922-7A671311E622" referredColumn="84AEEB1D-7233-D465-6B6B-0141E7854D6E"/>
+<colAssociation fkAssociation="C5A5AE65-BFA1-BBC9-5004-1504F664185F" referredColumn="C2A592D5-86B2-320E-09A0-50D3B00FEA67"/>
 </associations>
 </Column>
-<Column name="REPORTE" id="0C579C98-DD19-9F3B-AB7F-CC1F14F2FA1A">
+<Column name="DOCUMENTO" id="65880FC8-B31F-3637-B495-185E11C89FC6">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-24 12:35:48 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA_REPORTE" id="1E9D85C1-CEDB-67C3-153E-DAC538EBC566">
+<Column name="FECHA_SUBIDO" id="C3F6C736-477F-577A-9DAC-63D904256F81">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-24 12:35:48 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,25 +56,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D728B0F9-8C1C-9C48-AEE5-C99589B3ADCF" name="TBL_REPORTES_PK">
+<ind_PK_UK id="32A9F3D9-6FBB-9363-7676-DEAB7B8D1771" name="TBL_DOCUMENTACION_PK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-24 12:35:48 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3164D42-4895-2B14-248A-CB326A0E5FCD"/>
+<colUsage columnID="8E59D671-4DE1-9CA4-5872-322918C09695"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CFCA042C-D165-C0C2-68C1-ADD9FFC88A50" name="RPT_TP_RPT_FK">
+<ind_PK_UK id="28D2FCB9-9719-B8DC-9870-10203EC30352" name="DOC_TP_DOC_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-23 13:56:00 UTC</createdTime>
+<createdTime>2024-07-24 12:39:05 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6C93B9B5-403C-18D0-DDCE-1C331D6923F5"/>
+<colUsage columnID="BFE75FCC-FE7C-EBD4-58F3-102E73147C1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

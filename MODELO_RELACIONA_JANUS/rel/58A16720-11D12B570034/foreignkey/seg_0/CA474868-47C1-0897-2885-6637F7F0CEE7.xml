@@ -8,8 +8,8 @@
 <referredTableID>EBAD7F26-C499-AD7E-BAD5-CAC75BECFA9B</referredTableID>
 <keyObject>039DCEC6-DA88-4C7E-4BFE-563C1C53256B</keyObject>
 <referredKeyID>039DCEC6-DA88-4C7E-4BFE-563C1C53256B</referredKeyID>
-<mandatory>true</mandatory>
-<refColNames>ID_DEDUCCCION</refColNames>
+<mandatory>false</mandatory>
+<refColNames>ID_DEDUCCION</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

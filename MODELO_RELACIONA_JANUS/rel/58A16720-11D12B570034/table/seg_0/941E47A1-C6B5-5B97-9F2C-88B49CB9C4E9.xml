@@ -19,6 +19,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_DEP_TRABAJO" id="F78F1F6D-7D18-2294-EDBC-8E4C774AE374">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:49:15 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="067F4EF2-D3FF-DABB-DC9E-08AF77385C4F" referredColumn="69015281-589F-F820-DAEC-953AD4B4A829"/>
+</associations>
+</Column>
 <Column name="AREA_TRABAJO" id="C4AB7932-8443-7996-915C-D71F7855E94B">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-21 15:51:48 UTC</createdTime>
@@ -51,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC825595-5A91-9746-5C05-623A34707205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEAFEC36-D66B-2D5D-17CB-31C9CDE9CD1C" name="AREA_TRAB_DEP_TRA_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:49:15 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F78F1F6D-7D18-2294-EDBC-8E4C774AE374"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

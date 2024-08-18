@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2F9C787-C02C-CFF3-A334-ABC01D353C46" name="TBL_TIPO_BONIFICACION">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:24:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_BONIFICACION" id="14418A44-C637-3196-B818-FDB9689EF46A">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:25:07 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_BONIFICACION" id="7C4FF30F-0732-9570-6625-F0FB237A1152">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:25:07 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE4F0871-B981-0FF5-B168-7D4B9B2948A3" name="TBL_TIPO_BONIFICACION_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:25:07 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14418A44-C637-3196-B818-FDB9689EF46A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

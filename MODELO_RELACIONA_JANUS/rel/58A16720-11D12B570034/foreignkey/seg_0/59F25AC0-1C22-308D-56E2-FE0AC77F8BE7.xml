@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59F25AC0-1C22-308D-56E2-FE0AC77F8BE7" containerWithKeyObject="E4698B16-B1C6-DAA2-9EA5-28820EF0BB3D" localFKIndex="E385BC59-795C-F4EF-DE31-721BE7349C23" name="BONI_TP_BONI">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:25:17 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_TIPO_BONIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2F9C787-C02C-CFF3-A334-ABC01D353C46</referredTableID>
+<keyObject>CE4F0871-B981-0FF5-B168-7D4B9B2948A3</keyObject>
+<referredKeyID>CE4F0871-B981-0FF5-B168-7D4B9B2948A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_BONIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

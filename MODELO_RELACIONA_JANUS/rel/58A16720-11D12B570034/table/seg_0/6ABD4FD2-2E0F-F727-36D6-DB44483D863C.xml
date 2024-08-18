@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ABD4FD2-2E0F-F727-36D6-DB44483D863C" name="TBL_PERSONA">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:31:29 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<abbreviation>PER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDENTIDAD" id="1BE7C93D-179E-BD24-C69D-F70AE7963528">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:32:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GENERO" id="F3E5C11A-4BEE-BFC6-3A97-7588337A78DD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:35:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98988006-7AAC-4D5E-4DC6-66E707467222" referredColumn="2DB27A3B-77A6-82A8-9900-0E7A3B59C034"/>
+</associations>
+</Column>
+<Column name="NOMBRES" id="F00C09F7-8F25-DC16-B496-9C89730D2553">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:32:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="4C31462F-2C64-DEA5-8478-D9755462D078">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:32:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="048D50BD-7D2A-B9EE-4D3F-68C74B4A1E6B">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:35:14 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="8E21DB5B-6BD0-C893-1754-CBD2CED67C40">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:34:14 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00E45DC7-A3A8-CA42-7118-51675443B3A0" name="TBL_PERSONA_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:32:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BE7C93D-179E-BD24-C69D-F70AE7963528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7C985EB-0B06-C0AF-2DEE-E4A6AF3D2852" name="PERS_GEN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:35:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E5C11A-4BEE-BFC6-3A97-7588337A78DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

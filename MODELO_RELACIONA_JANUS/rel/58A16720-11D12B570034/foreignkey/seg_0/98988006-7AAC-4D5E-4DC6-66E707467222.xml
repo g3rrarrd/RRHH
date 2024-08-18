@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98988006-7AAC-4D5E-4DC6-66E707467222" containerWithKeyObject="6ABD4FD2-2E0F-F727-36D6-DB44483D863C" localFKIndex="C7C985EB-0B06-C0AF-2DEE-E4A6AF3D2852" name="PERS_GEN_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:35:25 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9D1CDAB-A1DA-59E1-0782-28DC276F0F9F</referredTableID>
+<keyObject>6F765454-FC01-8971-AEAD-B323F404A977</keyObject>
+<referredKeyID>6F765454-FC01-8971-AEAD-B323F404A977</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GENERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

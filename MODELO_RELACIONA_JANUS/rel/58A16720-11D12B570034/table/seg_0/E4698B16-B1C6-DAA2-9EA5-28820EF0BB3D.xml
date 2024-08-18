@@ -19,9 +19,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MONTO" id="87C65048-061F-94F6-665C-8297E5632F3A">
+<Column name="ID_TIPO_BONIFICACION" id="8C1EB94B-A03C-1A0E-73AF-7EF88CE265DE">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 20:57:10 UTC</createdTime>
+<createdTime>2024-07-30 14:25:17 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F25AC0-1C22-308D-56E2-FE0AC77F8BE7" referredColumn="14418A44-C637-3196-B818-FDB9689EF46A"/>
+</associations>
+</Column>
+<Column name="BONIFICACION" id="21281D1B-FDB9-B121-4A14-C7020A4AAECC">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:46:35 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,18 +43,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESCIPCION" id="0BF58A18-A1A3-2E3E-7A7D-BA8E0DB4C382">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 20:57:10 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 BYTE</dataTypeSize>
-<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_APLICADA" id="FBE867D7-FDA7-0272-B2AB-E62703253047">
@@ -64,6 +66,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="28318211-C918-F648-1ED4-7531DC77168F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E385BC59-795C-F4EF-DE31-721BE7349C23" name="BONI_TP_BONI">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:25:17 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C1EB94B-A03C-1A0E-73AF-7EF88CE265DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

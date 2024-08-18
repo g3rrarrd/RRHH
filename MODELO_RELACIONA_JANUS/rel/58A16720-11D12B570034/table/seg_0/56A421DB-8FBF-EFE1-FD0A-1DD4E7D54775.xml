@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56A421DB-8FBF-EFE1-FD0A-1DD4E7D54775" name="REPORTES_PAGOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:02:45 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_PAGOS_ID_PAGO" id="A2BF874C-0AD8-D838-AB9D-AF219960BB8A">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:02:59 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EEBF1B4-E78E-DE9C-B1F9-40E01F16F024" referredColumn="56872910-D1F5-8388-7565-C512CD3868E4"/>
+</associations>
+</Column>
+<Column name="TBL_REPORTES_ID_REPORTE" id="423CD6F8-D3AD-22F2-FB7A-6F3AF03A716C">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:03:05 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E51E85F1-A2C0-2B34-C700-E1AC7BE607F1" referredColumn="A3164D42-4895-2B14-248A-CB326A0E5FCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D86A0F-71DF-1FEC-D3D5-4476DB60ED14" name="REPORTES_PAGOS__UN">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:19:29 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BF874C-0AD8-D838-AB9D-AF219960BB8A"/>
+<colUsage columnID="423CD6F8-D3AD-22F2-FB7A-6F3AF03A716C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA8A3C92-D5D4-4946-9EDE-44CE26200105" name="REPORTES_PAGOS_TBL_PAGOS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:02:59 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BF874C-0AD8-D838-AB9D-AF219960BB8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4876556-A759-3804-4A13-2C5619644C3B" name="REPORTES_PAGOS_TBL_REPORTES_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:03:05 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="423CD6F8-D3AD-22F2-FB7A-6F3AF03A716C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

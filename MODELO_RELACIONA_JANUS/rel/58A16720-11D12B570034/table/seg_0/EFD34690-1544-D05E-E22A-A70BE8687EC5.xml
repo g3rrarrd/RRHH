@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFD34690-1544-D05E-E22A-A70BE8687EC5" name="DIR_X_EMP">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:07:18 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIRECCION" id="D825C973-6CA8-5549-00FC-5F93D613B544">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:07:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95850292-CEBC-8657-57D6-2BEADD68B91F" referredColumn="FBEDE635-A98A-2F2C-0007-46CFF60F0E68"/>
+</associations>
+</Column>
+<Column name="PERSONA_IDENTIDAD" id="D5C12B64-80AF-C7EA-2A4A-728D54B244B2">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:07:33 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23D9ACEE-C15D-C064-247E-A9CC92B4BBB5" referredColumn="1BE7C93D-179E-BD24-C69D-F70AE7963528"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5726BACF-02A3-E264-2B3F-062B0AA9D191" name="DIR_X_EMP__UN">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:08:17 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D825C973-6CA8-5549-00FC-5F93D613B544"/>
+<colUsage columnID="D5C12B64-80AF-C7EA-2A4A-728D54B244B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FD0B267-5A00-3FF3-1025-00471F443212" name="DIR_X_EMP_TBL_DIR_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:07:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D825C973-6CA8-5549-00FC-5F93D613B544"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FEFC302-8CF8-B3B9-957E-47C619968379" name="DIR_X_EMP_TBL_PERS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:07:33 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C12B64-80AF-C7EA-2A4A-728D54B244B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

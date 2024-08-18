@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D08B4C6B-EEB7-5C07-A24A-BF1571D37296" name="TBL_TIPO_PERMISO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-23 13:50:42 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<abbreviation>TP_PMS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO" id="2EEAC1D1-B1D8-2CAD-1DDD-188AA5D8DD95">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-23 13:51:28 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PERMISO" id="14400A5D-AF5B-C7D3-C48D-4C65ED8BDE2E">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-23 13:51:28 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="628AC0FC-C77A-C3F2-13FA-B36FF9E64E40" name="TBL_TIPO_PERMISO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-23 13:51:28 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EEAC1D1-B1D8-2CAD-1DDD-188AA5D8DD95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

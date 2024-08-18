@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E1E3681-332B-1E7A-9AEB-445F54E792F9" name="TBL_REPORTES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="380A1FDF-48B2-72CD-7103-51F2FB748DF3" name="TBL_DEPARTAMENTO_TRA">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:42:55 UTC</createdTime>
+<createdTime>2024-07-27 20:47:28 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<ordsAlias>table_6</ordsAlias>
-<abbreviation>RPS</abbreviation>
+<ordsAlias>table_26</ordsAlias>
+<abbreviation>DEP_TRA</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_REPORTE" id="A3164D42-4895-2B14-248A-CB326A0E5FCD">
+<Column name="ID_DEP_TRABAJO" id="69015281-589F-F820-DAEC-953AD4B4A829">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-27 20:48:49 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,61 +19,65 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_TIPO_REPORTE" id="6C93B9B5-403C-18D0-DDCE-1C331D6923F5">
+<Column name="DEP_TRABAJO" id="518ECE43-44F2-2582-6F44-3F4A03406498">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-23 13:56:00 UTC</createdTime>
+<createdTime>2024-07-27 20:48:49 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="BD9CD055-2BAF-3FCA-6970-99B66E3EEC9B">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-27 20:48:49 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JEFE_IDENTIDAD" id="A0703ADA-71D9-42E4-1ED9-2F8B89A3F859">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-14 14:11:50 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5C81BD60-398F-D529-8922-7A671311E622" referredColumn="84AEEB1D-7233-D465-6B6B-0141E7854D6E"/>
+<colAssociation fkAssociation="2C929F51-F0BF-D27A-DA9C-5CDE813FA671" referredColumn="4BB88E26-02F9-B3FC-400C-F517C94680FA"/>
 </associations>
-</Column>
-<Column name="REPORTE" id="0C579C98-DD19-9F3B-AB7F-CC1F14F2FA1A">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_REPORTE" id="1E9D85C1-CEDB-67C3-153E-DAC538EBC566">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D728B0F9-8C1C-9C48-AEE5-C99589B3ADCF" name="TBL_REPORTES_PK">
+<ind_PK_UK id="AB5E7BC4-6253-1578-F1E5-35E9E7176A41" name="TBL_DEPARTAMENTO_TRA_PK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:46:07 UTC</createdTime>
+<createdTime>2024-07-27 20:49:06 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3164D42-4895-2B14-248A-CB326A0E5FCD"/>
+<colUsage columnID="69015281-589F-F820-DAEC-953AD4B4A829"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CFCA042C-D165-C0C2-68C1-ADD9FFC88A50" name="RPT_TP_RPT_FK">
+<ind_PK_UK id="7DADD1F8-73DA-82D0-70B2-5BCAFABDB7F3" name="TBL_DEP_TRA_EMP_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-23 13:56:00 UTC</createdTime>
+<createdTime>2024-08-14 14:11:50 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6C93B9B5-403C-18D0-DDCE-1C331D6923F5"/>
+<colUsage columnID="A0703ADA-71D9-42E4-1ED9-2F8B89A3F859"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

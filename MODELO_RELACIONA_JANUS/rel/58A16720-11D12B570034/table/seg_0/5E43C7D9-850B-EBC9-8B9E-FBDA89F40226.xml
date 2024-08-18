@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E43C7D9-850B-EBC9-8B9E-FBDA89F40226" name="TBL_TIPO_DOCUMENTO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-24 12:37:47 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<abbreviation>TP_DMTN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_DOC" id="C2A592D5-86B2-320E-09A0-50D3B00FEA67">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-24 12:38:50 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DOCUMENTO" id="5304CBB3-0ADC-E3CC-E058-2ED39290FD9F">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-24 12:38:50 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62A44427-DFC5-698F-2A2E-97C9B8D69131" name="TBL_TIPO_DOCUMENTO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-24 12:38:50 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A592D5-86B2-320E-09A0-50D3B00FEA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

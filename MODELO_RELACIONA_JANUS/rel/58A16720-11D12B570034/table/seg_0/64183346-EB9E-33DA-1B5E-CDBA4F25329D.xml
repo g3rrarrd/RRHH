@@ -47,6 +47,18 @@
 <colAssociation fkAssociation="A52D32A7-5245-B918-489A-08C3F8962048" referredColumn="8B482761-FA25-2E8B-B9B0-72A68B207DFD"/>
 </associations>
 </Column>
+<Column name="DESCRIPCION" id="A960FEA9-199A-F063-EE31-25EEB0ED0CFD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-21 16:09:16 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="MONTO" id="E4E2E8AD-4B72-426B-C62E-449A52AA8FDE">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-21 21:30:22 UTC</createdTime>
@@ -59,16 +71,16 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MOTIVO" id="A960FEA9-199A-F063-EE31-25EEB0ED0CFD">
+<Column name="MONTO_RESTANTE" id="7BFE8136-88CF-B71A-A4E4-32DCD81AF074">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 16:09:16 UTC</createdTime>
+<createdTime>2024-07-30 14:33:20 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200 BYTE</dataTypeSize>
-<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_PRESTAMO" id="E3FE3597-792C-B5A0-99CC-59481DC5DA1B">

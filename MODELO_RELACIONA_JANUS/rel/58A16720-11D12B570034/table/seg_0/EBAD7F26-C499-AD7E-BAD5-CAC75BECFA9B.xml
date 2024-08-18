@@ -19,6 +19,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_TIPO_DEDUCCION" id="BA6CA938-EF2D-35CC-BA90-8C1492D99CC3">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:23:43 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37A1F96A-2843-82C1-C092-B2333F150D67" referredColumn="31203D6B-5CD7-FBFE-CF07-4CDC77CDEC73"/>
+</associations>
+</Column>
 <Column name="ID_PRESTAMOS" id="7A1998C5-57A6-F80D-9557-58986AFCF072">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-21 21:01:00 UTC</createdTime>
@@ -34,28 +48,17 @@
 <colAssociation fkAssociation="9C0A0D05-DAB1-4909-3CE3-F8693BC0E49C" referredColumn="C3588E3B-E98C-72E5-97CE-26AD9C164730"/>
 </associations>
 </Column>
-<Column name="DEDUCCION" id="23199E64-65EE-8752-4C38-EA298EA7908E">
+<Column name="DEDUCCION" id="26699E2E-E59A-963F-3DBB-367D01D4D701">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<createdTime>2024-07-30 14:46:04 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESCRIPCION" id="FA7BE80F-E0D6-CDD9-BF36-DAFD9CB65C13">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 20:54:25 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 BYTE</dataTypeSize>
-<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_APLICADA" id="580E4645-2841-2549-2463-9241B12565F4">
@@ -89,6 +92,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7A1998C5-57A6-F80D-9557-58986AFCF072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FFAC275-940A-8520-5982-E0441A6600B6" name="DEDUC_TP_DEDUC">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-30 14:23:43 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6CA938-EF2D-35CC-BA90-8C1492D99CC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

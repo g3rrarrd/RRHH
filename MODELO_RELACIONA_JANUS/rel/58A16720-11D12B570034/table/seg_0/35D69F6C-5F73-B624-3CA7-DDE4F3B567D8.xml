@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35D69F6C-5F73-B624-3CA7-DDE4F3B567D8" name="REPORTES_EMPLEADOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:00:32 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REPORTE" id="1C6E8F2E-BB9A-D1D4-9914-A65E3CD805C5">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:01:19 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFA30FA2-792C-E66E-9C19-955F60DCAA3A" referredColumn="A3164D42-4895-2B14-248A-CB326A0E5FCD"/>
+</associations>
+</Column>
+<Column name="ID_HST_USUARIO" id="5B12C223-7F3D-8927-1B5F-BBC0729EBB4B">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:01:12 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9996FC0B-8A43-F919-8AF7-C30D466A6769" referredColumn="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5313860F-5065-C315-A130-FE7B500830EE" name="REPORTES_EMPLEADOS__UN">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:19:07 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6E8F2E-BB9A-D1D4-9914-A65E3CD805C5"/>
+<colUsage columnID="5B12C223-7F3D-8927-1B5F-BBC0729EBB4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19EFE3D2-C177-A2B8-30A8-1B848BEBEAF5" name="REPORTES_EMPLEADOS_TBL_HISTORIAL_USUARIO_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:01:12 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B12C223-7F3D-8927-1B5F-BBC0729EBB4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27A3D941-ADC6-A6E9-F09A-855F452F31C3" name="REPORTES_EMPLEADOS_TBL_REPORTES_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-02 13:01:19 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6E8F2E-BB9A-D1D4-9914-A65E3CD805C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
