@@ -33,10 +33,27 @@
 <colAssociation fkAssociation="59F25AC0-1C22-308D-56E2-FE0AC77F8BE7" referredColumn="14418A44-C637-3196-B818-FDB9689EF46A"/>
 </associations>
 </Column>
+<Column name="PERSONA_IDENTIDAD" id="99F32EC9-976C-7F8F-6314-746B9E5D6CD4">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 22:04:02 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAD2B965-AFC4-38F7-EC1E-15F4B46E5564" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
+</associations>
+</Column>
 <Column name="BONIFICACION" id="21281D1B-FDB9-B121-4A14-C7020A4AAECC">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-30 14:46:35 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -53,6 +70,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="EE7569E8-96D1-01D7-F0E9-30D3DB6F7A61">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 21:35:40 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -76,6 +105,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8C1EB94B-A03C-1A0E-73AF-7EF88CE265DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDCABC1A-1C49-577D-F37F-2FE0FEF34AF0" name="TBL_BONIFICACIONES_EMP_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 22:04:02 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99F32EC9-976C-7F8F-6314-746B9E5D6CD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

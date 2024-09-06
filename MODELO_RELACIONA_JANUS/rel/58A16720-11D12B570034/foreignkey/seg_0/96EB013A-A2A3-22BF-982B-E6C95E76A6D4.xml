@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96EB013A-A2A3-22BF-982B-E6C95E76A6D4" containerWithKeyObject="59AB0452-7633-F1FC-6054-9D281754CE38" localFKIndex="2318E9C2-1C1B-41BC-76A9-0397DD009455" name="TBL_PERMISOS_ESTD_PER_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<referredTableLongName>TBL_ESTADO_PERMISO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>841FFFB0-A19B-BF01-B332-5FE5A7A92F43</referredTableID>
+<keyObject>4AF8027E-CC98-D601-9C4E-96BFF36B1387</keyObject>
+<referredKeyID>4AF8027E-CC98-D601-9C4E-96BFF36B1387</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO_PER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

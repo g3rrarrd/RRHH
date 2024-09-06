@@ -9,16 +9,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_DOCUMENTO" id="8E59D671-4DE1-9CA4-5872-322918C09695">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-24 12:35:48 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ID_TIPO_DOC" id="BFE75FCC-FE7C-EBD4-58F3-102E73147C1D">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-24 12:39:05 UTC</createdTime>
@@ -54,6 +44,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PERSONA_IDENTIDAD" id="2D0EB6BC-7499-B2E8-349A-CDF2FE00EEA0">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 17:26:39 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D79BD61-A0AB-3630-D702-A3C9A19EA21E" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="32A9F3D9-6FBB-9363-7676-DEAB7B8D1771" name="TBL_DOCUMENTACION_PK">
@@ -64,7 +69,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8E59D671-4DE1-9CA4-5872-322918C09695"/>
+<colUsage columnID="BFE75FCC-FE7C-EBD4-58F3-102E73147C1D"/>
+<colUsage columnID="2D0EB6BC-7499-B2E8-349A-CDF2FE00EEA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="28D2FCB9-9719-B8DC-9870-10203EC30352" name="DOC_TP_DOC_FK">
@@ -75,6 +81,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BFE75FCC-FE7C-EBD4-58F3-102E73147C1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF985016-83D0-556B-2D5F-EAA328824FB0" name="TBL_DOCUMENTACION_EMPLEADOS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 17:26:39 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0EB6BC-7499-B2E8-349A-CDF2FE00EEA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

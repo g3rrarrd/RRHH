@@ -33,21 +33,6 @@
 <colAssociation fkAssociation="37A1F96A-2843-82C1-C092-B2333F150D67" referredColumn="31203D6B-5CD7-FBFE-CF07-4CDC77CDEC73"/>
 </associations>
 </Column>
-<Column name="ID_PRESTAMOS" id="7A1998C5-57A6-F80D-9557-58986AFCF072">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:01:00 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9C0A0D05-DAB1-4909-3CE3-F8693BC0E49C" referredColumn="C3588E3B-E98C-72E5-97CE-26AD9C164730"/>
-</associations>
-</Column>
 <Column name="DEDUCCION" id="26699E2E-E59A-963F-3DBB-367D01D4D701">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-30 14:46:04 UTC</createdTime>
@@ -61,14 +46,16 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA_APLICADA" id="580E4645-2841-2549-2463-9241B12565F4">
+<Column name="ACTIVO" id="9167F017-CE72-0492-6E56-8B6F4BBD22DA">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 20:54:25 UTC</createdTime>
+<createdTime>2024-08-20 18:01:19 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -82,16 +69,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EA7BADC8-F337-4D8D-024F-50828D8E8034"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8AB88556-DE0B-0476-5815-7282B3F3771C" name="DDN_PTS_FK">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:01:00 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7A1998C5-57A6-F80D-9557-58986AFCF072"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4FFAC275-940A-8520-5982-E0441A6600B6" name="DEDUC_TP_DEDUC">

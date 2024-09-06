@@ -15,9 +15,9 @@
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>13</dataTypePrecision>
-<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_GENERO" id="F3E5C11A-4BEE-BFC6-3A97-7588337A78DD">

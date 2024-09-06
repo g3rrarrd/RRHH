@@ -33,6 +33,22 @@
 <colAssociation fkAssociation="5C81BD60-398F-D529-8922-7A671311E622" referredColumn="84AEEB1D-7233-D465-6B6B-0141E7854D6E"/>
 </associations>
 </Column>
+<Column name="PERSONA_IDENTIDAD" id="0E7158DB-E46B-E867-4CD3-D41FE6938A52">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 15:19:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC49A27D-99B3-74AB-5DCF-DEB6A3B48DC1" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
+</associations>
+</Column>
 <Column name="REPORTE" id="0C579C98-DD19-9F3B-AB7F-CC1F14F2FA1A">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-09 15:46:07 UTC</createdTime>
@@ -74,6 +90,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6C93B9B5-403C-18D0-DDCE-1C331D6923F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A0645C-6C63-AD2B-F6DF-F4A7AF74ED0C" name="TBL_REPORTES_EMPLEADOS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 14:42:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E7158DB-E46B-E867-4CD3-D41FE6938A52"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

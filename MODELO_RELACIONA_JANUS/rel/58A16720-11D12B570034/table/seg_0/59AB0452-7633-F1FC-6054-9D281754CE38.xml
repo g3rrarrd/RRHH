@@ -9,54 +9,20 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PERMISO" id="8F01ACA9-38FB-DE5A-DD4D-71CD3CD349DD">
+<Column name="PERSONA_IDENTIDAD" id="147D60FC-FA3B-7E72-621A-64F64C575B81">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<createdTime>2024-08-20 15:19:10 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_HST_USUARIO" id="7FF89246-4F39-A3BF-C9CC-37BBB2A5CE48">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:26:44 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E7ABE065-4009-4D18-16F3-09DB9F50A773" referredColumn="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9"/>
+<colAssociation fkAssociation="5453E0AE-E02F-4D01-BFAE-6B6D3720F09F" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
 </associations>
-</Column>
-<Column name="ID_TIPO" id="E80E5430-8BDE-117D-1AB5-190D3419D895">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-23 13:52:26 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0635972D-0A11-16F8-55EB-B01C167CC6E1" referredColumn="2EEAC1D1-B1D8-2CAD-1DDD-188AA5D8DD95"/>
-</associations>
-</Column>
-<Column name="PERMISO" id="FBB73705-B0B1-324B-C17B-2C34C9CAE8F8">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-09 15:49:36 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_INICIO" id="11536C14-F160-A59B-B43D-657B7E3F0636">
 <createdBy>g_rod</createdBy>
@@ -72,12 +38,62 @@
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-09 15:49:36 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO" id="E80E5430-8BDE-117D-1AB5-190D3419D895">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-23 13:52:26 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0635972D-0A11-16F8-55EB-B01C167CC6E1" referredColumn="2EEAC1D1-B1D8-2CAD-1DDD-188AA5D8DD95"/>
+</associations>
+</Column>
+<Column name="MOTIVO" id="FBB73705-B0B1-324B-C17B-2C34C9CAE8F8">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-09 15:49:36 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPROBANTE" id="687B964B-80C2-2B78-7891-94258509BA01">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-21 03:40:15 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO_PER" id="6C35A8F1-1AD0-ACE0-F954-C841B2B76A60">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96EB013A-A2A3-22BF-982B-E6C95E76A6D4" referredColumn="473EE473-8526-3254-080F-56E77936CFE5"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -89,17 +105,9 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8F01ACA9-38FB-DE5A-DD4D-71CD3CD349DD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5EBCD6EF-266F-EBCA-5ACD-34907D48A93F" name="PSM_HST_USR_FK">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:26:44 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7FF89246-4F39-A3BF-C9CC-37BBB2A5CE48"/>
+<colUsage columnID="147D60FC-FA3B-7E72-621A-64F64C575B81"/>
+<colUsage columnID="11536C14-F160-A59B-B43D-657B7E3F0636"/>
+<colUsage columnID="AA3FE970-0642-7414-11C0-296EA46D9BFC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C7EE7B74-FB38-39C2-0A22-AC7B8BDBE616" name="PMS_TIPO_PMS_FK">
@@ -110,6 +118,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E80E5430-8BDE-117D-1AB5-190D3419D895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5F30355-EEEE-2122-5F4B-FB2528871A45" name="TBL_PERMISOS_EMPLEADOS_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 14:38:23 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147D60FC-FA3B-7E72-621A-64F64C575B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2318E9C2-1C1B-41BC-76A9-0397DD009455" name="TBL_PERMISOS_ESTD_PER_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:48 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C35A8F1-1AD0-ACE0-F954-C841B2B76A60"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

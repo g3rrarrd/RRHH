@@ -30,31 +30,20 @@
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SALARIO" id="BD9CD055-2BAF-3FCA-6970-99B66E3EEC9B">
+<Column name="JEFE_IDENTIDAD" id="3073DC71-1057-0A3B-5E15-10B0EF65382D">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-27 20:48:49 UTC</createdTime>
+<createdTime>2024-08-20 15:19:10 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="JEFE_IDENTIDAD" id="A0703ADA-71D9-42E4-1ED9-2F8B89A3F859">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-08-14 14:11:50 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>13</dataTypePrecision>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2C929F51-F0BF-D27A-DA9C-5CDE813FA671" referredColumn="4BB88E26-02F9-B3FC-400C-F517C94680FA"/>
+<colAssociation fkAssociation="2C929F51-F0BF-D27A-DA9C-5CDE813FA671" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
 </associations>
 </Column>
 </columns>
@@ -77,7 +66,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A0703ADA-71D9-42E4-1ED9-2F8B89A3F859"/>
+<colUsage columnID="3073DC71-1057-0A3B-5E15-10B0EF65382D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

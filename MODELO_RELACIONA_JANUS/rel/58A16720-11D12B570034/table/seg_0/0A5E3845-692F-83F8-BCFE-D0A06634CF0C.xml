@@ -19,24 +19,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_HST_USUARIO" id="6AD8C0FB-DE82-4A1B-73DD-7BE86BC98AE9">
-<createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:26:27 UTC</createdTime>
-<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="85ECB707-684D-8533-4801-54F9110D5919" referredColumn="C0A22D34-E8CF-4FAE-3C17-CA1AB67559B9"/>
-</associations>
-</Column>
 <Column name="MONTO" id="F83B7EDC-41A4-DC18-7180-7E26161A3243">
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-21 16:04:50 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -49,11 +36,28 @@
 <createdBy>g_rod</createdBy>
 <createdTime>2024-07-21 16:04:50 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_IDENTIDAD" id="307B3D78-771D-F403-E04D-10966D3482AD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 15:19:10 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A422F6D-F716-6D9A-BB17-A96B6D39C23C" referredColumn="431A7B2E-59F7-5652-1A71-F05670114F4E"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -68,14 +72,14 @@
 <colUsage columnID="56872910-D1F5-8388-7565-C512CD3868E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="767FCEC1-E808-ECC1-0914-9181F72D180A" name="PAGOS_HST_USR_FK">
+<ind_PK_UK id="936794EB-1D78-54F8-E953-BC8EAFF28FDF" name="TBL_PAGOS_EMPLEADOS_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-21 21:26:27 UTC</createdTime>
+<createdTime>2024-08-20 14:38:38 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6AD8C0FB-DE82-4A1B-73DD-7BE86BC98AE9"/>
+<colUsage columnID="307B3D78-771D-F403-E04D-10966D3482AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

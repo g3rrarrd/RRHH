@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="841FFFB0-A19B-BF01-B332-5FE5A7A92F43" name="TBL_ESTADO_PERMISO">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:00 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_PER" id="473EE473-8526-3254-080F-56E77936CFE5">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_PERMISO" id="1BD4976E-549F-77DF-44AD-2C13542FDC0C">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF8027E-CC98-D601-9C4E-96BFF36B1387" name="TBL_ESTADO_PERMISO_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-08-20 16:54:34 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="473EE473-8526-3254-080F-56E77936CFE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

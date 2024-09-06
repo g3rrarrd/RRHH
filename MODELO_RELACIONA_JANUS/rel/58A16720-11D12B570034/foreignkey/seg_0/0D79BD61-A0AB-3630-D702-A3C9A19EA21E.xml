@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C929F51-F0BF-D27A-DA9C-5CDE813FA671" containerWithKeyObject="380A1FDF-48B2-72CD-7103-51F2FB748DF3" localFKIndex="7DADD1F8-73DA-82D0-70B2-5BCAFABDB7F3" name="TBL_DEP_TRA_EMP_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D79BD61-A0AB-3630-D702-A3C9A19EA21E" containerWithKeyObject="CDDA3758-CFBE-36B1-B0D0-105F078C53DE" localFKIndex="EF985016-83D0-556B-2D5F-EAA328824FB0" name="TBL_DOCUMENTACION_EMPLEADOS_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-08-14 14:11:50 UTC</createdTime>
+<createdTime>2024-08-20 17:26:39 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <referredTableLongName>EMPLEADOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>CAC72AD4-8ABA-98DB-2EEC-50AE886489BA</referredTableID>
 <keyObject>FC985C64-C120-51F4-7165-30DAC7BC9AAF</keyObject>
 <referredKeyID>FC985C64-C120-51F4-7165-30DAC7BC9AAF</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>PERSONA_IDENTIDAD</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

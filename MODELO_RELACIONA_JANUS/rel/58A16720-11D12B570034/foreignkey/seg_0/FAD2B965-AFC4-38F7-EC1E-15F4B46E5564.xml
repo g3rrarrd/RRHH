@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C929F51-F0BF-D27A-DA9C-5CDE813FA671" containerWithKeyObject="380A1FDF-48B2-72CD-7103-51F2FB748DF3" localFKIndex="7DADD1F8-73DA-82D0-70B2-5BCAFABDB7F3" name="TBL_DEP_TRA_EMP_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAD2B965-AFC4-38F7-EC1E-15F4B46E5564" containerWithKeyObject="E4698B16-B1C6-DAA2-9EA5-28820EF0BB3D" localFKIndex="EDCABC1A-1C49-577D-F37F-2FE0FEF34AF0" name="TBL_BONIFICACIONES_EMP_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-08-14 14:11:50 UTC</createdTime>
+<createdTime>2024-08-20 22:04:02 UTC</createdTime>
 <ownerDesignName>MODELO_RELACIONA_JANUS</ownerDesignName>
 <referredTableLongName>EMPLEADOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
